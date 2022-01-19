@@ -2712,7 +2712,7 @@
     (property "Value" "SW_Push" (id 1) (at 223.52 63.4999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM" (id 2) (at 224.79 62.23 0)
+    (property "Footprint" "myFootPrint:SMD,3x4x2mm" (id 2) (at 224.79 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 224.79 62.23 0)
@@ -2848,7 +2848,7 @@
     (property "Value" "CH340C" (id 1) (at 93.98 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (id 2) (at 92.71 149.86 0)
+    (property "Footprint" "lc_lib:SOP-16_150MIL" (id 2) (at 92.71 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf" (id 3) (at 82.55 115.57 0)
@@ -3060,7 +3060,7 @@
     (property "Value" "B120-E3" (id 1) (at 66.04 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMF" (id 2) (at 57.785 115.57 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 57.785 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf" (id 3) (at 62.23 115.57 0)
@@ -3117,7 +3117,7 @@
     (property "Value" "q1" (id 1) (at 146.05 137.1599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 146.05 133.35 0)
+    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23" (id 2) (at 146.05 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 140.97 135.89 0)
@@ -3491,7 +3491,7 @@
     (uuid a7286792-287e-40c5-8151-5ba91dee889f)
     (property "Reference" "C1" (id 0) (at 125.73 20.32 90))
     (property "Value" "100uf" (id 1) (at 128.27 22.86 90))
-    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7132-28_AVX-C_Pad2.72x3.50mm_HandSolder" (id 2) (at 124.46 23.1648 0)
+    (property "Footprint" "lc_lib:CASE-B_3528" (id 2) (at 124.46 23.1648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 24.13 0)
@@ -3650,7 +3650,7 @@
     (property "Value" "SW_Push" (id 1) (at 193.04 63.4999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM" (id 2) (at 194.31 62.23 0)
+    (property "Footprint" "myFootPrint:SMD,3x4x2mm" (id 2) (at 194.31 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 194.31 62.23 0)
@@ -3835,7 +3835,7 @@
     (property "Value" "q2" (id 1) (at 147.32 154.9399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 147.32 156.21 0)
+    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23" (id 2) (at 147.32 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 142.24 153.67 0)
@@ -3979,7 +3979,7 @@
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/a7286792-287e-40c5-8151-5ba91dee889f"
-      (reference "C1") (unit 1) (value "100uf") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7132-28_AVX-C_Pad2.72x3.50mm_HandSolder")
+      (reference "C1") (unit 1) (value "100uf") (footprint "lc_lib:CASE-B_3528")
     )
     (path "/7c00ca17-1b33-42c5-9d50-ea1e066e3966"
       (reference "C2") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4015,7 +4015,7 @@
       (reference "D3") (unit 1) (value "RXD") (footprint "LED_SMD:LED_0201_0603Metric")
     )
     (path "/4bd99efa-40aa-4b31-9466-ee87627720f0"
-      (reference "D4") (unit 1) (value "B120-E3") (footprint "Diode_SMD:D_SMF")
+      (reference "D4") (unit 1) (value "B120-E3") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/e6053544-5ba2-43e9-b1b8-fe98b78ac554"
       (reference "J1") (unit 1) (value "J1") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical")
@@ -4027,10 +4027,10 @@
       (reference "J3") (unit 1) (value "usbc") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/53cc671a-d4a7-43a0-aecc-08ecfea2f543"
-      (reference "Q1") (unit 1) (value "q1") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "q1") (footprint "Package_TO_SOT_SMD:TSOT-23")
     )
     (path "/f3e71929-c9a1-427a-a7d6-0bc2b52c3802"
-      (reference "Q2") (unit 1) (value "q2") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "q2") (footprint "Package_TO_SOT_SMD:TSOT-23")
     )
     (path "/636f1d33-6937-48b5-a3b2-7c6eee4be461"
       (reference "R1") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4084,10 +4084,10 @@
       (reference "R17") (unit 1) (value "100K(1%)") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/cbd93821-096f-4094-8611-620944c67ada"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_FSMSM")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "myFootPrint:SMD,3x4x2mm")
     )
     (path "/05a6d9e6-ede4-496a-a12f-0db20fb4e557"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_FSMSM")
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "myFootPrint:SMD,3x4x2mm")
     )
     (path "/00000000-0000-0000-0000-000061cc7fc4"
       (reference "U1") (unit 1) (value "ESP-12E") (footprint "RF_Module:ESP-12E")
@@ -4096,7 +4096,7 @@
       (reference "U2") (unit 1) (value "SPX3819M5-L-3-3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/34eb6719-7713-41ef-b8d2-9cc36d38f374"
-      (reference "U3") (unit 1) (value "CH340C") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+      (reference "U3") (unit 1) (value "CH340C") (footprint "lc_lib:SOP-16_150MIL")
     )
   )
 )
