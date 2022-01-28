@@ -1,0 +1,85 @@
+(footprint "TFT_1.4_12_back" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F3B63A)
+  (clearance 0.17)
+  (attr smd)
+  (fp_text reference "TFT_1.4" (at 2.7 -37.4 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 087d5c1a-609d-4b72-abad-59ede3e0e15b)
+  )
+  (fp_text value "TFT_1.4_12_back" (at 2.7 -23.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cd9b6b41-b1c5-47b7-96c8-5c1dac7d0a0a)
+  )
+  (fp_text user "${REFERENCE}" (at 2.7 -19.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a1b3d52c-0479-408c-a80e-02e7214c71b5)
+  )
+  (fp_line (start -0.02 5) (end -0.02 0) (layer "B.SilkS") (width 0.12) (tstamp 5ae9e6e8-dbd7-43c1-89ce-89d5742d4700))
+  (fp_line (start 14.68 0) (end 11.38 5) (layer "B.SilkS") (width 0.12) (tstamp cd8c4d72-56c3-42cb-afa2-88c85ed05a41))
+  (fp_rect (start -0.02 7) (end 11.38 5) (layer "B.SilkS") (width 0.12) (fill none) (tstamp a0b79eaa-9d01-4a0a-86b4-51b89a2eb81d))
+  (fp_circle (center 10.98 3) (end 11.58 3) (layer "B.SilkS") (width 0.12) (fill none) (tstamp 309b91c1-cf56-4d35-a5e6-34b764a9c816))
+  (fp_circle (center 0.98 3) (end 1.58 3) (layer "B.SilkS") (width 0.12) (fill none) (tstamp 89c597a1-3ec7-4d58-909b-75cc31f42e28))
+  (fp_line (start 11.4 -6) (end 8.7 0) (layer "F.SilkS") (width 0.12) (tstamp 82d724a5-de80-4959-9980-3b9fa5de964e))
+  (fp_line (start -6 -6) (end 0 0) (layer "F.SilkS") (width 0.12) (tstamp 8583f098-8525-47d3-99c4-a63cf4c513a4))
+  (fp_line (start 14.7 0) (end 14.7 -6) (layer "F.SilkS") (width 0.12) (tstamp a2a9ff1c-d86b-456d-9fca-736a57b3732a))
+  (fp_line (start 13.2 -6) (end 13.2 0) (layer "F.SilkS") (width 0.12) (tstamp c9d1ed54-7ade-4a1a-9c82-d7e7d161f9bd))
+  (fp_line (start 0 0) (end 14.7 0) (layer "F.SilkS") (width 0.12) (tstamp e5a089a7-eb26-4b08-b0d8-35f689ba378a))
+  (fp_rect (start -10.3 -35) (end 15.7 -6) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 38bc3a56-cef0-475e-9932-47bd40c9d0d3))
+  (fp_rect (start -6 -6) (end 11.4 -7) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 77870289-2c16-4c95-9dc7-e7ab7d0505a7))
+  (fp_rect (start -9 -10.3) (end 14.4 -33.7) (layer "F.SilkS") (width 0.12) (fill none) (tstamp bd9f9752-0b62-4b31-8aac-daddbf637836))
+  (fp_line (start -4.5 -2.5) (end 15.24 -2.5) (layer "Edge.Cuts") (width 0.12) (tstamp 0887eb27-c795-47c8-8b85-804ff1430157))
+  (fp_line (start 15.24 0.5) (end -4.5 0.5) (layer "Edge.Cuts") (width 0.12) (tstamp ee202a96-96ee-464e-a148-4b76788af37e))
+  (fp_arc (start 15.24 -2.5) (mid 16.74 -1) (end 15.24 0.5) (layer "Edge.Cuts") (width 0.12) (tstamp 2a80e520-c5bd-402d-9b26-1a7536775a36))
+  (fp_arc (start -4.5 0.5) (mid -6 -1) (end -4.5 -2.5) (layer "Edge.Cuts") (width 0.12) (tstamp 9fd9e8ec-fc98-4154-ad2e-11ac105668bf))
+  (fp_line (start -9 -10.3) (end 14.4 -33.7) (layer "F.Fab") (width 0.1) (tstamp 264c18f5-9809-402b-bf50-49f243e8f4c8))
+  (fp_line (start -9 -33.7) (end 14.4 -10.3) (layer "F.Fab") (width 0.1) (tstamp 8ffff45b-92d6-4c70-abf2-ab38e31649c0))
+  (pad "" np_thru_hole circle (at 10.98 3) (size 1 1) (drill 1) (layers F&B.Cu *.Mask) (tstamp 2d1cfacc-4931-4d09-ad45-a86a038f8b89))
+  (pad "" np_thru_hole circle (at 0.98 3) (size 1 1) (drill 1) (layers F&B.Cu *.Mask) (tstamp b5c37567-3300-47fd-b18f-244f23783d3c))
+  (pad "1" smd rect (at 9.3 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp ddb83956-0781-4967-adf3-cb27a82b32ef))
+  (pad "2" smd rect (at 8.6 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp a58b425b-6fc3-4a86-ae11-a84decf83c5a))
+  (pad "3" smd rect (at 7.9 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 42f4679b-2c4d-49cf-8f9e-afb5127a3112))
+  (pad "4" smd rect (at 7.2 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 99772301-d596-41c7-ac2d-d8320c28783c))
+  (pad "5" smd rect (at 6.5 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 55dcb42c-b26a-49b8-8a1f-cc80851d2e4d))
+  (pad "6" smd rect (at 5.8 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 10a5cee8-0f6f-4aac-80c1-915f5fcf52f0))
+  (pad "7" smd rect (at 5.1 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 2652ca87-c786-4061-81b7-9315b84b5d2c))
+  (pad "8" smd rect (at 4.4 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp c50a4250-2225-4797-b4a1-1bc3d1138c0f))
+  (pad "9" smd rect (at 3.7 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 446bf57c-8a66-4199-8c1c-73dc66bbce20))
+  (pad "10" smd rect (at 3 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 4b91a28b-e778-4691-8d2b-bb09bc10e8e8))
+  (pad "11" smd rect (at 2.3 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp e92c974a-b07f-4799-a79e-f281f85dbc1a))
+  (pad "12" smd rect (at 1.6 6 180) (size 0.35 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 8a203993-fbf3-470f-ab7c-4d95a24716de))
+  (group "" (id 199124ca-dd64-45cf-a063-97cc545cbea7)
+    (members
+      10a5cee8-0f6f-4aac-80c1-915f5fcf52f0
+      2652ca87-c786-4061-81b7-9315b84b5d2c
+      2d1cfacc-4931-4d09-ad45-a86a038f8b89
+      309b91c1-cf56-4d35-a5e6-34b764a9c816
+      42f4679b-2c4d-49cf-8f9e-afb5127a3112
+      446bf57c-8a66-4199-8c1c-73dc66bbce20
+      4b91a28b-e778-4691-8d2b-bb09bc10e8e8
+      55dcb42c-b26a-49b8-8a1f-cc80851d2e4d
+      5ae9e6e8-dbd7-43c1-89ce-89d5742d4700
+      89c597a1-3ec7-4d58-909b-75cc31f42e28
+      8a203993-fbf3-470f-ab7c-4d95a24716de
+      99772301-d596-41c7-ac2d-d8320c28783c
+      a0b79eaa-9d01-4a0a-86b4-51b89a2eb81d
+      a58b425b-6fc3-4a86-ae11-a84decf83c5a
+      b5c37567-3300-47fd-b18f-244f23783d3c
+      c50a4250-2225-4797-b4a1-1bc3d1138c0f
+      cd8c4d72-56c3-42cb-afa2-88c85ed05a41
+      ddb83956-0781-4967-adf3-cb27a82b32ef
+      e92c974a-b07f-4799-a79e-f281f85dbc1a
+    )
+  )
+  (group "" (id dd70858b-2f9a-4b3f-9af5-ead3a9ba57e9)
+    (members
+      264c18f5-9809-402b-bf50-49f243e8f4c8
+      38bc3a56-cef0-475e-9932-47bd40c9d0d3
+      77870289-2c16-4c95-9dc7-e7ab7d0505a7
+      8ffff45b-92d6-4c70-abf2-ab38e31649c0
+      a1b3d52c-0479-408c-a80e-02e7214c71b5
+      bd9f9752-0b62-4b31-8aac-daddbf637836
+      cd9b6b41-b1c5-47b7-96c8-5c1dac7d0a0a
+    )
+  )
+)

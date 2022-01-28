@@ -1,4 +1,4 @@
-20830729018098251
+20832372578072443
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59493,7 +59493,7 @@ Mounting 4.5mm 9774100982
 8
 1
 My-lib
-SMD,3x4x2mm
+Button_SMD,3x4x2mm
 
 
 0
@@ -59501,6 +59501,13 @@ SMD,3x4x2mm
 2
 My-lib
 TFT_1.4_12
+
+
+0
+12
+12
+My-lib
+TFT_1.4_12_back
 
 
 0

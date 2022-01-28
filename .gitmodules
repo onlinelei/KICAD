@@ -1,0 +1,9 @@
+[submodule "demo/wifiaudio-tx-hardware"]
+	path = demo/wifiaudio-tx-hardware
+	url = https://github.com/BearLaboratory/wifiaudio-tx-hardware.git
+[submodule "demo/single-power-bank"]
+	path = demo/single-power-bank
+	url = https://github.com/BearLaboratory/SinglePowerBank.git
+[submodule "demo/usb-ttl-downloader"]
+	path = demo/usb-ttl-downloader
+	url = https://github.com/BearLaboratory/downloader.git
