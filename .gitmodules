@@ -7,3 +7,18 @@
 [submodule "demo/usb-ttl-downloader"]
 	path = demo/usb-ttl-downloader
 	url = https://github.com/BearLaboratory/downloader.git
+[submodule "libary/kicad-footprints"]
+	path = libary/kicad-footprints
+	url = https://gitlab.com/kicad/libraries/kicad-footprints.git
+[submodule "libary/kicad-symbols"]
+	path = libary/kicad-symbols
+	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
+[submodule "libary/SparkFun-KiCad-Libraries"]
+	path = libary/SparkFun-KiCad-Libraries
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
+[submodule "libary/lc_kicad_lib"]
+	path = libary/lc_kicad_lib
+	url = https://github.com/xtoolbox/lc_kicad_lib.git
+[submodule "libary/digikey-kicad-library"]
+	path = libary/digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library.git
