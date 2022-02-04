@@ -439,11 +439,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
-      "idf": "",
+      "gencad": "screen.cad",
+      "idf": "screen.emn",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "screen.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
