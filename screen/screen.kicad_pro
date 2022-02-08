@@ -344,7 +344,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "My-lib"
+      "My-lib-footprints"
     ],
     "pinned_symbol_libs": []
   },
