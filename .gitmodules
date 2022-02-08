@@ -22,3 +22,9 @@
 [submodule "libary/digikey-kicad-library"]
 	path = libary/digikey-kicad-library
 	url = https://github.com/Digi-Key/digikey-kicad-library.git
+[submodule "plugins/RF-tools-KiCAD"]
+	path = plugins/RF-tools-KiCAD
+	url = https://github.com/easyw/RF-tools-KiCAD.git
+[submodule "plugins/kicad_scripts"]
+	path = plugins/kicad_scripts
+	url = https://github.com/NilujePerchut/kicad_scripts.git
