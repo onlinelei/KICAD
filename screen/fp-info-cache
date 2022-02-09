@@ -1,4 +1,4 @@
-23206028738616122
+23207673153487369
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -63938,6 +63938,13 @@ Button_SMD,3x4x2mm
 2
 2
 My-lib-footprints
+TFT_0.96_13
+
+
+0
+0
+0
+My-lib-footprints
 TFT_1.4_12
 
 
@@ -63970,8 +63977,8 @@ USB_C_6pin
 
 
 0
-0
-0
+8
+7
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
