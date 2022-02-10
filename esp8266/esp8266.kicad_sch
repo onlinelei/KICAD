@@ -2990,7 +2990,7 @@
     (property "Value" "ANTENNA-GROUNDEDTRACE-15.2MM" (id 1) (at 19.05 73.66 90)
       (effects (font (size 1.143 1.143)) (justify left))
     )
-    (property "Footprint" "TRACE_ANTENNA_2.4GHZ_15.2MM" (id 2) (at 26.67 46.99 0)
+    (property "Footprint" "My-lib-footprints:RF_2.4GHZ_15.2MM" (id 2) (at 26.67 46.99 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (id 3) (at 26.67 48.26 0)
@@ -4262,7 +4262,7 @@
       (reference "D3") (unit 1) (value "RXD") (footprint "LED_SMD:LED_0402_1005Metric")
     )
     (path "/26860590-79bf-4bfc-9098-a910d085304a"
-      (reference "E1") (unit 1) (value "ANTENNA-GROUNDEDTRACE-15.2MM") (footprint "TRACE_ANTENNA_2.4GHZ_15.2MM")
+      (reference "E1") (unit 1) (value "ANTENNA-GROUNDEDTRACE-15.2MM") (footprint "My-lib-footprints:RF_2.4GHZ_15.2MM")
     )
     (path "/54b81e61-47eb-47b3-a4fb-c738687e3421"
       (reference "J1") (unit 1) (value "power") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
