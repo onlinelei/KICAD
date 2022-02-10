@@ -342,9 +342,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "My-lib"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "My-lib"
     ]
