@@ -346,7 +346,9 @@
     "pinned_footprint_libs": [
       "My-lib-footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "My-lib"
+    ]
   },
   "meta": {
     "filename": "screen.kicad_pro",

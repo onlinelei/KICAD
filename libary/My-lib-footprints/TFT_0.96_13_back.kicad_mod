@@ -1,6 +1,6 @@
 (footprint "TFT_0.96_13_back" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6203E9CD)
+  (tedit 620A5A21)
   (attr smd)
   (fp_text reference "REF**" (at 7.36 -22.81 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
