@@ -1369,7 +1369,7 @@
     (uuid 7cc9c57f-9167-40ea-afc3-253cf3056483)
   )
 
-  (label "nRST" (at 162.56 80.645 180)
+  (label "RST" (at 162.56 80.645 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 14d142cc-84c8-4581-89fe-c3f25d317e7b)
   )
@@ -1528,7 +1528,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 101.6 102.235 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3b49870e-47e1-4887-b360-7eb0723c5606)
-    (property "Reference" "#FLG03" (id 0) (at 99.695 102.235 0)
+    (property "Reference" "#FLG02" (id 0) (at 99.695 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 97.79 102.2349 90)
@@ -2191,7 +2191,7 @@
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/3b49870e-47e1-4887-b360-7eb0723c5606"
-      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/01c05c7f-9a74-4acc-95cb-f339df8cb185"
       (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
