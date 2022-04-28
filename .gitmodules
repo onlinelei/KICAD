@@ -28,3 +28,6 @@
 [submodule "plugins/kicad_scripts"]
 	path = plugins/kicad_scripts
 	url = https://github.com/NilujePerchut/kicad_scripts.git
+[submodule "libary/kicad-packages3D"]
+	path = libary/kicad-packages3D
+	url = https://gitlab.com/kicad/libraries/kicad-packages3D.git
